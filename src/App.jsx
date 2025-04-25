@@ -111,7 +111,7 @@ const App = () => {
       ...params,
       boundingbox: params.boundingbox || null,
       calculatedRadius: params.radius || null,
-      // Gunakan titik tengah yang dihitung atau koordinat yang diberikan
+      // Gunakan titik tengah yang dihitung atau koordinat 
       latitude: centerPoint ? centerPoint.lat : params.latitude,
       longitude: centerPoint ? centerPoint.lng : params.longitude
     }));
